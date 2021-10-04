@@ -6,7 +6,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 	
-Asena.addCommand({pattern: 'mmpack', fromMe: true,}, (async (message, match) => {
+Asena.addCommand({pattern: 'mmpack', fromMe: true, desc: 'alexa meme pack'}, (async (message, match) => {
 
 	        var r_text = new Array ();
 
