@@ -1,6 +1,6 @@
-/* Copyright (C) 2020 Yusuf Usta.
-RECODDED BY AFNANPPLK
-Plk  
+/* Copyright (C) 2020 Yusuf Usnta.
+RECODDED BY En-Cuzier 
+KTB  
 */
 
 const fs = require("fs");
@@ -94,7 +94,7 @@ async function whatsAsena () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Alexa')}
+        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Aalexa')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
@@ -133,9 +133,19 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('[QUEEN ALEXA active your account]')
-        );
-    });
+            chalk.green.bold('●▬▬Queen Alexa is working now▬▬●')
+       );
+        
+         if (config.LANG == 'EN') {
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/Queenx4.png"), MessageType.image, { caption: `*⦁═Queen 👸 Alexa═⦁*\n\nHello ${conn.user.name}!\n\n*🆘 General Help For You! 🆘*\n\n🔹 *.alive:* Check if the bot is running.\n\n🔹 *.alexa:* Shows the complete list of commands.\n\n🔹 *.restart:* It Restarts the bot.\n\n🔹 *.shutdown:* It Shutdown/Turn off the bot.\n\n *⚠ Warning, If you shutdown/turn off, there is no command to turn on the bot So You must got to heroku & turn on the worker. ⚠*.\n\n*Thank You For Using ⦁═Queen 👸 Alexa═⦁*`});
+             
+         } else if (config.LANG == 'ID') {
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/Queenx4.jpg"), MessageType.image, { caption: `『 Whatsdevil V_1 』\n\nHalo ${conn.user.name}!\n\n*🆘 Bantuan umum 🆘*\n\n🔹 *#alive:* Periksa apakah bot sedang berjalan.\n\n🔹 *#list:* Menampilkan daftar lengkap perintah.\n\n🔹 *#restart:* Ini me-restart bot.\n\n🔹 *#shutdown:* Ini Matikan/Matikan bot.\n\n *⚠ Peringatan, Jika Anda mematikan/mematikan, tidak ada perintah untuk menghidupkan bot Jadi Anda harus pergi ke heroku & Nyalakan worker. ⚠*.\n\nTerima Kasih Telah Menggunakan WHATSDEVIL V_1 💖`});
+             
+         } else {
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/QQueenx4.jpg"), MessageType.image, { caption: `『 WHATSDEVIL V_1 』\n\n *ഹലോ*  ${conn.user.name}!\n\n*🆘 പൊതുവായ സഹായം 🆘*\n\n🔹 *#alive:* ബോട്ട് പ്രവർത്തിക്കുന്നുണ്ടോയെന്ന് പരിശോധിക്കുന്നു.\n\n🔹 *#list:* കമാൻഡുകളുടെ പൂർണ്ണ ലിസ്റ്റ് കാണിക്കുന്നു.\n\n🔹 *#restart:* ഇത് ബോട്ടിനെ പുനരാരംഭിപ്പിക്കുന്നു.\n\n🔹 *#shutdown:* ഇത് ഷട്ട്ഡൗൺ/ബോട്ട് ഓഫ് ചെയ്യുന്നു.\n\n *⚠ മുന്നറിയിപ്പ്, നിങ്ങൾ ഷട്ട്ഡൗൺ/ഓഫ് ചെയ്യുകയാണെങ്കിൽ, ബോട്ട് ഓണാക്കാൻ ഒരു കമാൻഡും ഇല്ല അതിനാൽ നിങ്ങൾ Heroku ഇല്പോയി worker ഓൺ ചെയ്യണം ⚠*.\n\nDXTROX V_1 ഉപയോഗിച്ചതിന് നന്ദി 💖`});
+        }
+     });
     
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
@@ -146,28 +156,50 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
+ 
 
-        if (msg.messageStubType === 32 || msg.messageStubType === 28) {
-            // Görüşürüz Mesajı
-            var gb = await getMessage(msg.key.remoteJid, 'goodbye');
-            if (gb !== false) {
-                let pp
-                try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+        if (config.WELCOME == 'pp' || config.WELCOME == 'Pp' || config.WELCOME == 'PP' || config.WELCOME == 'pP' ) {
+            if (msg.messageStubType === 32 || msg.messageStubType === 28) {
+                    // Thanks to Lyfe
+                    var gb = await getMessage(msg.key.remoteJid, 'goodbye');
+                    if (gb !== false) {
+                        let pp
+                        try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
+                        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
+                        await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+                    }
+                    return;
+                } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
+                    // welcome
+                    var gb = await getMessage(msg.key.remoteJid);
+                    if (gb !== false) {
+                       let pp
+                        try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
+                        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
+                        await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+                    }
+                    return;
+                }
             }
-            return;
-        } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-            // Hoşgeldin Mesajı
-            var gb = await getMessage(msg.key.remoteJid);
-            if (gb !== false) {
-               let pp
-                try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
-            }
-            return;
-        }
+            else if (config.WELCOME == 'gif' || config.WELCOME == 'Gif' || config.WELCOME == 'GIF' || config.WELCOME == 'GIf' ) {
+            if (msg.messageStubType === 32 || msg.messageStubType === 28) {
+                    // Thanks to ichus-Sophia
+                    var gb = await getMessage(msg.key.remoteJid, 'goodbye');
+                    if (gb !== false) {
+                        var sewqueenimage = await axios.get(config.BYE_GIF, { responseType: 'arraybuffer' })
+                        await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                    }
+                    return;
+                } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
+                    // Thanks to Ravindu Manoj
+                    var gb = await getMessage(msg.key.remoteJid);
+                    if (gb !== false) {
+                    var sewqueenimage = await axios.get(config.WEL_GIF, { responseType: 'arraybuffer' })
+                    await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                    }
+                    return;
+                }
+             }
 
         events.commands.map(
             async (command) =>  {
@@ -183,14 +215,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
 
                 if ((command.on !== undefined && (command.on === 'image' || command.on === 'photo')
                     && msg.message && msg.message.imageMessage !== null && 
-                    (command.pattern === undefined || (command.pattern !== undefined && 
-                        command.pattern.test(text_msg)))) || 
+                    (command.pattern === undefined || (command.pattern !== undefined && 
+                        command.pattern.test(text_msg)))) || 
                     (command.pattern !== undefined && command.pattern.test(text_msg)) || 
                     (command.on !== undefined && command.on === 'text' && text_msg) ||
                     // Video
                     (command.on !== undefined && (command.on === 'video')
                     && msg.message && msg.message.videoMessage !== null && 
-                    (command.pattern === undefined || (command.pattern !== undefined && 
+                    (command.pattern === undefined || (command.pattern !== undefined && 
                         command.pattern.test(text_msg))))) {
 
                     let sendMsg = false;
@@ -198,25 +230,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                         
                     if ((config.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.SUDO || config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.SUDO)
-                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
-                        if (command.onlyPinned && chat.pin === undefined) return;
-                        if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
-                        else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
-                    }
-                    
-                    else if ((config.MAHN !== false && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && config.MAHN.includes(',') ? config.MAHN.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.MAHN || config.MAHN.includes(',') ? config.MAHN.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.MAHN)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-    
+  
                     if (sendMsg) {
                         if (config.SEND_READ && command.on === undefined) {
                             await conn.chatRead(msg.key.remoteJid);
                         }
-                        
+                       
                         var match = text_msg.match(command.pattern);
                         
                         if (command.on !== undefined && (command.on === 'image' || command.on === 'photo' )
@@ -236,18 +260,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                         try {
                             await command.function(whats, match);
                         } catch (error) {
-                            if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
-                                    '\n*WhatsAsena bir hata gerçekleşti!*'+
-                                    '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
-                                    '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
-                                    '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._\n\n' +
-                                    'Gerçekleşen Hata: ' + error + '\n\n'
-                                    , MessageType.text);
+                            if (config.LANG == 'EN') {
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/queen.png"), MessageType.image, { caption: '*●▬▬ERROR▬▬●*\n\n*⚠Queen Alexa an error has occurred!*\n*⭕Report this error to the developer! [ En cuzier ]*\n\n*⭕Error:* ```' + error + '```\n\n' });
+                                
+                            } else if (config.LANG == 'ML') {
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/queen.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*WWHATSDEVIL V_1 error സംഭവിച്ചു!*\n_ഈ error  ഡെവലപ്പറെ അറിയിക്കുക! [ TTONY-MARK ]._\n\n*error:* ```' + error + '```\n\n' });
+                                
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*⦁═Queen 👸 Alexa═⦁[error]* ' +
-                                    '\n\n*👻 ' + error + '*\n'
-                                    , MessageType.text);
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/Whatsdevil.jpg"), MessageType.image, { caption: '*『 KESALAHAN 』*\n\n*WHATSDEVIL V_1 telah terjadi kesalahan!*\n_Laporkan kesalahan ini ke pengembang [ TONY-MARK ]._\n\n*Kesalahan:* ```' + error + '```\n\n' });
                             }
                         }
                     }
@@ -260,7 +280,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
+            console.log(chalk.red.bold('Refreshing your old version string...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
