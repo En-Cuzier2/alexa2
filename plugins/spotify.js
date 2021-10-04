@@ -1,4 +1,4 @@
-/* Neotro-X re edited aen cuzier [creater teenuh] 
+/* Neotro-X ❲ re edit en cuzier _ owner teenuh ❳
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
