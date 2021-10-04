@@ -490,7 +490,14 @@
             "URL": "Profile URL:",
             "UPDATE": "Last Update:"
         },
-              "weather": {
+        "spotify": {
+            "SPO_DESC": "ඔබට spotify ගීත links මඟින් download කරගත හැක.",
+            "SPO_NEED": "ඔබ link ඇතුළත් කළ යුතුය!",
+            "SPO_DOWN": "🔄ඔබේ ගීතය download කරමින් පවති...",
+            "SPO_UP": "📥 ඔබේ ගීතය upload කරමින් පවති...",
+            "SPO_ERR": "කරුණාකර වලංගු spotify link ඇතුළත් කරන්න"
+        },
+        "weather": {
             "WEATHER_DESC": "Shows the weather.",
             "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather kozhikode```",
             "LOCATION": "Location",
