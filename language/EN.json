@@ -241,17 +241,17 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 ᴀʟᴇxᴀ ʀᴇꜱᴛᴀʀᴛɪɴɢ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ!*",
+            "AFTER_UPDATE": "*❲❄❳ Successfullu update Queen alexa ❲❄❳*\n*❍alexa's restarting now!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
             "PL_DESC": "Displays metadata data of group or person.",
-            "SUB": "*Group Name:* ",
-            "DES": "*Group Description:* ",
-            "OWN": "*Founder:* ",
-            "COD": "*Unique Group Code:* ",
-            "JİD": "*Person JID:* ",
-            "ST": "*Person Status:* "
+            "SUB": "*╠Group Name:➜* ",
+            "DES": "*╠Group Description:➜* ",
+            "OWN": "*╠Founder:➜* ",
+            "COD": "*╠Unique Group Code:➜* ",
+            "JİD": "*╠Person JID:➜* ",
+            "ST": "*║Person Status:➜* "
         },
         "log": {
             "LOG": "Saves the message you reply to your private number.",
@@ -266,12 +266,12 @@
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
             "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
-            "LOCATION": "Location",
-            "TEMP": "Temperature",
-            "DESC": "Description",
-            "HUMI": "Humidity",
-            "WIND": "Wind Speed",
-            "CLOUD": "Cloud",
+            "LOCATION": "*🗺Location*",
+            "TEMP": "*🌡Temperature*",
+            "DESC": "*📃Description*",
+            "HUMI": "*🌥Humidity*",
+            "WIND": "*🌬Wind Speed*",
+            "CLOUD": "*🌦Cloud*",
             "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
         },
         "web": {
@@ -491,11 +491,11 @@
             "UPDATE": "Last Update:"
         },
         "spotify": {
-            "SPO_DESC": "ඔබට spotify ගීත links මඟින් download කරගත හැක.",
-            "SPO_NEED": "ඔබ link ඇතුළත් කළ යුතුය!",
-            "SPO_DOWN": "🔄ඔබේ ගීතය download කරමින් පවති...",
-            "SPO_UP": "📥 ඔබේ ගීතය upload කරමින් පවති...",
-            "SPO_ERR": "කරුණාකර වලංගු spotify link ඇතුළත් කරන්න"
+            "SPO_DESC": "Download the spotify song.",
+            "SPO_NEED": "*You must add link*!",
+            "SPO_DOWN": "*Downloading your song...*",
+            "SPO_UP": "*Uploading your song...*",
+            "SPO_ERR": "*please enter the valued url*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
