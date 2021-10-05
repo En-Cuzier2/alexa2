@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'mmpack', fromMe: true, desc: 'dose bot work / no'}, 
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n```Hey budy i'm alive now```\n\n❍𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 ► ```En cuzier```\n❍𝗩𝗲𝗿𝘀𝗶𝗼𝗻  ► ```2.0 globale```\n❍𝗛𝗼𝘀𝘁𝗲𝗱  ► ```Heroku cloud sever```\n❍𝗔𝗯𝗼𝘂𝘁  ► ```Queen alexa is the best user bot in whatsapp```\n\n ```Copyright by © Queen Alexa 2021``` '})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄\n\n*❍Developer ► ```En cuzier```*❍Hosted* ► ```Heroku cloud sever```\n*❍Branche* ► ```Hatzuhole main```\n\n```Copyright by © Queen Alexa 2021```'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
