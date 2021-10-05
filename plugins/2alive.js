@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'alive', fromMe: true, desc: 'dose bot work / no'}, (
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄\n\n*❍Developer ► ```En cuzier```*❍Hosted* ► ```Heroku cloud sever```\n*❍Branche* ► ```Hatzuhole main```\n\n```Copyright by © Queen Alexa 2021```'})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄\n\n*❍Developer ►* ```En cuzier```\n*❍Hosted  ►* ```Heroku cloud sever```\n*❍Branche  ►* ```Hatzuhole main```\n*❍Git hub ►*```https://github.com/En-Cuzier/alexa2```\n\n*ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
