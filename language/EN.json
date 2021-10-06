@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "En cuzier",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Command",
@@ -192,9 +192,9 @@
             "NEED_TEXT_SONG": "ᴘʟᴇᴀꜱᴇ ᴡʀɪᴛᴇ ᴀ ꜱᴏɴɢ \n ᴇxᴀᴍᴘʟᴇ:.ꜱᴏɴɢ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡɪɴɢꜱ",
             "NEED_TEXT_SING": "*Tell me which song to sing !*\n*Example:* ```.sing open your wings```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
-            "DOWNLOADING_SING": "ɢᴇᴛ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ᴍᴇ ꜱɪɴɢ",
-            "UPLOADING_SONG": "ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
+            "DOWNLOADING_SONG": "\n*⦁━━━━━━❲📻❳━━━━━━⦁*\n*Downloading your song*\n*⦁━━━━━━❲🎶❳━━━━━━⦁*\n",
+            "DOWNLOADING_SING": "*Redy to heare*",
+            "UPLOADING_SONG": "\n*◄⦁❲🎧❳⦁►*\n     *Uploading your song*\n*◄━━━━━⦁◉◆◉⦁━━━━━►*\n",
             "UPLOADING_SING": " ᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=t1r_tmgQago```",
