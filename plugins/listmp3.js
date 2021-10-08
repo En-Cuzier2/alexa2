@@ -3,7 +3,7 @@ const FormData = require('form-data')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn, text }) => {
-  if (text) conn.sendFile(m.chat, 'TAG_REPLY' + encodeURIComponent(text), 'queen1.mp3', '', m, false, { asSticker: true })
+  if (text) conn.sendFile(m.chat, 'TAG_REPLY' + encodeURIComponent(text), 'some.mp3', '', m, false, { asSticker: true })
   else throw 'alexa'
 }
 handler.help = ['tagg <teks>']
