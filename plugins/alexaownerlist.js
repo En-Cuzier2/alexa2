@@ -10,15 +10,15 @@ Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'its show bot owner comm
 
 	        var r_text = new Array ();
 
-        r_text[1] = "https://telegra.ph/file/3b20b361f75e1ccdfecb3.jpg";
-        r_text[2] ="https://telegra.ph/file/e03e7e9258b292cf33cf1.jpg";
-        r_text[3] ="https://telegra.ph/file/4b978de48c417dc1f4cb1.jpg";
-        r_text[4] ="https://telegra.ph/file/d1eb8fabf9e772e419f1c.jpg";
+        r_text[1] = "https://telegra.ph/file/63379c989948be8b71a36.jpg";
+        r_text[2] ="https://telegra.ph/file/e19bde6672abf912907ca.jpg";
+        r_text[3] ="https://telegra.ph/file/115bad2e4628452317e36.jpg";
+        r_text[4] ="https://telegra.ph/file/875ad1013f95132c01a5f.jpg";
         r_text[5] ="https://telegra.ph/file/3fe7cb3aeee6a6b17f5a0.jpg";
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n         ⚕ *Queen Alexa* ⚕\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n              ```OWNER COMMAND```\n\n*🪀cmnd   :* ```.install```\n*💘desc :* ```install the extra plugin```\n\n*🪀cmnd   :* ```.del```\n*💘desc :* ```delete your extra plugin```\n\n*🪀cmnd   :* ```.add```\n*💘desc :* ```add your own person```\n\n*🪀cmnd   :* ```.ban```\n*💘desc :* ```remove any person```\n\n*🪀cmnd   :* ```.promote```\n*💘desc :* ```promote any person```\n\n*🪀cmnd   :* ```.demote```\n*💘desc :* ```demote any person```\n\n*🪀cmnd   :* ```.dyno```\n*💘desc :* ```show your used dyno percentage```\n\n*🪀cmnd   :* ```.up now```\n*💘desc :* ```update your bot```\n\n*🪀cmnd   :* ```.tagall```\n*💘desc  :* ```mention all person in the group```\n\n*🪀cmnd   :* ```.tagadmin```\n*💘desc :* ```mention group admins```\n\n*⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏*\n *⦁━✪⦁ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ⦁✪━⦁*\n*⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏**'})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n         ⚕ *Queen Alexa* ⚕\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n              ```OWNER COMMAND```\n\n*🪀cmnd   :* ```.install```\n*💘desc :* ```install the extra plugin```\n\n*🪀cmnd   :* ```.del```\n*💘desc :* ```delete your extra plugin```\n\n*🪀cmnd   :* ```.add```\n*💘desc :* ```add your own person```\n\n*🪀cmnd   :* ```.ban```\n*💘desc :* ```remove any person```\n\n*🪀cmnd   :* ```.promote```\n*💘desc :* ```promote any person```\n\n*🪀cmnd   :* ```.demote```\n*💘desc :* ```demote any person```\n\n*🪀cmnd   :* ```.dyno```\n*💘desc :* ```show your used dyno percentage```\n\n*🪀cmnd   :* ```.up now```\n*💘desc :* ```update your bot```\n\n*🪀cmnd   :* ```.tagall```\n*💘desc  :* ```mention all person in the group```\n\n*🪀cmnd   :* ```.tagadmin```\n*💘desc :* ```mention group admins```\n\n*⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏*\n *⦁━✪ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ✪━⦁*\n*⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏**'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
