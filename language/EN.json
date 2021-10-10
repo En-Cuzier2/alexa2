@@ -235,7 +235,7 @@
         "updater": {
             "UPDATER_DESC": "Checks the update for pinky.",
             "UPDATE": "*❲QUEEN ALEXA UP-TO-DATE❳*",
-            "NEW_UPDATE": "*❲New update available for QUEEN ALEXA❳*\n\n ```use .list for commands``` \n\n *ask support group before updating or your bot might stop working* \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n```ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ```\n ",
+            "NEW_UPDATE": "*❲New update available for QUEEN ALEXA❳*\n\n ```use .alexa for commands``` \n\n *ask support group before updating or your bot might stop working* \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n\n```ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ```\n ",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "*[ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ ᴜᴘᴅᴀᴛɪɴɢ ]*",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
@@ -246,12 +246,12 @@
         },
         "whois": {
             "PL_DESC": "Displays metadata data of group or person.",
-            "SUB": "*╠Group Name:➜* ",
-            "DES": "*╠Group Description:➜* ",
-            "OWN": "*╠Founder:➜* ",
-            "COD": "*╠Unique Group Code:➜* ",
-            "JİD": "*╠Person JID:➜* ",
-            "ST": "*║Person Status:➜* "
+            "SUB": "*👽Group Name:➜* ",
+            "DES": "*🧞‍♀️Group Description:➜* ",
+            "OWN": "*🧚‍♀️Founder:➜* ",
+            "COD": "*🧛‍♂️Unique Group Code:➜* ",
+            "JİD": "*🧙Person JID:➜* ",
+            "ST": "*🪀Person Status:➜* "
         },
         "log": {
             "LOG": "Saves the message you reply to your private number.",
@@ -593,7 +593,7 @@
             "M_AUT": "Music Author:"
         },
         "lyrics": {
-            "LY_DESC": "Pinky will find the lyrics of the song.",
+            "LY_DESC": "Alexa will find the lyrics of the song.",
             "NEED": "\n```You Must Write Any Song!```\n",
             "SLY": "Lyrics:",
             "AUT": "Song Owner:",
