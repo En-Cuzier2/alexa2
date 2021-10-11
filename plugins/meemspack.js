@@ -14,7 +14,7 @@ const Ln = "Make memes your own "
 
 if (Config.WORKTYPE == 'private') {
     
-      Asena.addCommand({pattern: 'meme', fromMe: true, desc: Ln,}, (async (message, match) => {
+      Asena.addCommand({pattern: 'cuzier98', fromMe: true, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
