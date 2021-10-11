@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'memes', fromMe: true, desc: 'its make your own memes
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━⦁⚬⦁😹⦁⚬⦁━━━━━━►*\n    *QUEEN ALEXA MEMES*\n\n*📚Command* ► ```.bocca```\n*📚Command* ► ```.tharindu```\n*📚Command* ► ```santha```\n*📚Command* ► ```.mymeme```\n*📚Command* ► ```.saduni```\n*📚Command* ► ```.bomu```\n\n *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n'})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━⦁⚬⦁😹⦁⚬⦁━━━━━━►*\n    *QUEEN ALEXA MEMES*\n\n*📚Command* ► ```.bocca```\n*📚Command* ► ```.tharindu```\n*📚Command* ► ```santha```\n*📚Command* ► ```.mymeme```\n*📚Command* ► ```.saduni```\n*📚Command* ► ```.bomu```\n*📚Command* ► ```.my3```\n\n *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
