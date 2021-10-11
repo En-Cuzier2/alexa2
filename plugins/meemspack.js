@@ -10,7 +10,7 @@ const axios = require('axios');
 const Config = require('../config');
 const ll ="*Need some Word*"
 const Ln = "Make memes your own "
- const code = "╔════════════════════╗\n║   😹 *Meme World* 😹\n║\n║\n╠═══ *🎭commands🎭*\n║\n╠══ *.bocca*\n╠══ *.mymeme*\n╠══ *.santha*\n╠══ *.chaina*\n╠══ *.bomu*\n╠══ *.saduni*\n╠══ *.tharindu*\n║\n╚════════════════════╝"
+ const code = "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n 😹 *Meme World* 😹\n║\n║\n╠═══ *🎭commands🎭*\n║\n╠══ *.bocca*\n╠══ *.mymeme*\n╠══ *.santha*\n╠══ *.chaina*\n╠══ *.bomu*\n╠══ *.saduni*\n╠══ *.tharindu*\n║\n╚════════════════════╝"
 
 if (Config.WORKTYPE == 'private') {
     
