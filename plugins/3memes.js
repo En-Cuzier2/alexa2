@@ -51,11 +51,11 @@ if (Config.WORKTYPE == 'private') {
 
     }));
   
-      Asena.addCommand({ pattern: 'chaina ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      Asena.addCommand({ pattern: 'my3 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
-        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=${encodeURIComponent(match[1])}&bottom=%20&img=https://telegra.ph/file/e91e8daa9a99a234ccca8.jpg/revision/latest/top-crop/width/450/height/500?cb=20190205115000`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=${encodeURIComponent(match[1])}&bottom=%20&img=https://telegra.ph/file/077e4178b917d2736dd5c.jpg/revision/latest/top-crop/width/450/height/500?cb=20190205115000`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '```Made by Queen alexa 2021```' })
 
