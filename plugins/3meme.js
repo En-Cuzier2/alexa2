@@ -10,15 +10,15 @@ Asena.addCommand({pattern: 'memes', fromMe: true, desc: 'its make your own memes
 
 	        var r_text = new Array ();
 
-        r_text[1] = "https://telegra.ph/file/3b20b361f75e1ccdfecb3.jpg";
-        r_text[2] ="https://telegra.ph/file/e03e7e9258b292cf33cf1.jpg";
-        r_text[3] ="https://telegra.ph/file/4b978de48c417dc1f4cb1.jpg";
-        r_text[4] ="https://telegra.ph/file/d1eb8fabf9e772e419f1c.jpg";
+        r_text[1] = "https://telegra.ph/file/ab0c55c8cbdbea4cb302d.jpg";
+        r_text[2] ="https://telegra.ph/file/92601374008b8d0d9cbb3.jpg";
+        r_text[3] ="https://telegra.ph/file/95ff3b78e223ffe9bf7bf.jpg";
+        r_text[4] ="https://telegra.ph/file/b034f592f50f9ff061ff4.jpg";
         r_text[5] ="https://telegra.ph/file/3fe7cb3aeee6a6b17f5a0.jpg";
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━⦁⚬⦁😹⦁⚬⦁━━━━━━►*\n    *QUEEN ALEXA MEMES*\n\n*📚Command* ► ```.bocca```\n*📚Command* ► ```.tharindu```\n*📚Command* ► ```.santha```\n*📚Command* ► ```.mymeme```\n*📚Command* ► ```.saduni```\n*📚Command* ► ```.bomu```\n*📚Command* ► ```.my3```\n*📚Command* ► ```.hora```\n*📚Command* ► ```.gota```\n*📚Command* ► ```.goad```\n\n*ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n'})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━━⦁⦁🧙⦁⦁━━━━━━━►*\n*●QUEEN ALEXA MEME WORLD●*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━►*\n\n*🪀Command ●►* ```.bocca```\n*🪀Command ●►* ```.goad```\n*🪀Command ●►* ```.bomu```\n*🪀Command ●►* ```.gotaa```\n*🪀Command ●►* ```.tharindu```\n*🪀Command ●►* ```.saduni```\n*🪀Command ●►* ```.my3```\n*🪀Command ●►* ```.hora```\n*🪀Command ●►* ```.santha```\n*🪀Command ●►* ```.mocac```\n\n*●ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 2021●*\n⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈\n'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
