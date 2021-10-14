@@ -61,11 +61,11 @@ if (Config.WORKTYPE == 'private') {
 
     }));
   
-        Asena.addCommand({ pattern: 'gotaa ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+        Asena.addCommand({ pattern: 'goad ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
-        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=${encodeURIComponent(match[1])}&bottom=%20&img=https://telegra.ph/file/f057fef4732105ef3acd9.jpg/revision/latest/top-crop/width/450/height/500?cb=20190205115000`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=${encodeURIComponent(match[1])}&bottom=%20&img=https://telegra.ph/file/249516e26b71961dd2b65.jpg/revision/latest/top-crop/width/450/height/500?cb=20190205115000`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '```Made by Queen alexa 2021```' })
 
@@ -81,11 +81,11 @@ if (Config.WORKTYPE == 'private') {
 
 }));
   
-  Asena.addCommand({ pattern: 'goad ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+  Asena.addCommand({ pattern: 'gotaa ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(ll);
 
-  var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/249516e26b71961dd2b65.jpg/revision/latest/top-crop/width/450/height/500?cb=20190205115000`, { responseType: 'arraybuffer' })
+  var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/f057fef4732105ef3acd9.jpg/revision/latest/top-crop/width/450/height/500?cb=20190205115000`, { responseType: 'arraybuffer' })
 
   await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '```Made by Queen alexa 2021```' })
 
