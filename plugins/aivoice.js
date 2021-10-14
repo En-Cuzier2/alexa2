@@ -3,7 +3,7 @@ const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
-let tn = Config.WORKTYPE == 'private' ? false : true
+let tn = Config.WORKTYPE == 'public' ? false : true
 const UP = "⦁═Queen 👸 Alexa═⦁"
 
 Neotro.addCommand({pattern: 'alexa ?(.*)', fromMe: tn, dontAddCommandList: true}, (async (message, match) => {
