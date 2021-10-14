@@ -4,11 +4,11 @@ const Asena = require('../events');
 
 const Config = require('../config');
 
-const UNQ = "wrong command dont type words after command"
+const UNQ = "*◄━━━━━━━⦁❲❄❳⦁━━━━━━━━►*"
 
 const DDO = "This camand make a group crash ⚠️This camand cous damage to your divice  please use this camand your own risk ..."
 
-const ONO = "*⦁⦂❲Bug Virus❳⦂⦁*"
+const ONO = "*◄━━━━━━━⦁❲😈❳⦁━━━━━━━━►*\n❳❄*❲QUEEN ALEXA BUGHOLE❳❄❲*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*"
 
 const Language = require('../language');
 
