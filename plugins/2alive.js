@@ -10,15 +10,15 @@ Asena.addCommand({pattern: 'alive', fromMe: true, desc: 'dose bot work / no'}, (
 
 	        var r_text = new Array ();
 
-        r_text[1] = "https://telegra.ph/file/3b20b361f75e1ccdfecb3.jpg";
-        r_text[2] ="https://telegra.ph/file/e03e7e9258b292cf33cf1.jpg";
-        r_text[3] ="https://telegra.ph/file/4b978de48c417dc1f4cb1.jpg";
-        r_text[4] ="https://telegra.ph/file/d1eb8fabf9e772e419f1c.jpg";
-        r_text[5] ="https://telegra.ph/file/3fe7cb3aeee6a6b17f5a0.jpg";
+        r_text[1] = "https://telegra.ph/file/4cfb624b62a43fbfc6799.jpg";
+        r_text[2] ="https://telegra.ph/file/e879753f94c48be027cb1.jpg";
+        r_text[3] ="https://telegra.ph/file/46d0e571df3366938119b.jpg";
+        r_text[4] ="https://telegra.ph/file/31ff0b4ec7548399e1944.jpg";
+        r_text[5] ="https://telegra.ph/file/395822c1f497c9778ba64.jpg";
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━⦁⚬❲❄❳⚬⦁━━━━━━►*\n⚜𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄⚜\n\n*❍Developer ►* ```En cuzier```\n*❍Hosted  ►* ```Heroku cls```\n*❍Branche  ►* ```Hatzuhole main```\n*❍Moders  ►*```Queen Alexa team```\n*❍Git hub ►*```https://github.com/En-Cuzier/alexa2```\n\n\n    *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*'})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━⦁⚬❲❄❳⚬⦁━━━━━━►*\n⚜𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄⚜\n\n*▣Developer ►* ```En cuzier```\n*▣Hosted      ►* ```Heroku cls```\n*▣Branche    ►* ```Hatzuhole main```\n*▣Git hub      ►* ```https://github.com/En-Cuzier```\n*▣Moders     ►* ```Queen Alexa team```\n                         ⛥ ```Mr.chaby```\n                         ⛥ ```Teenuh```\n                         ⛥ ```MashZ```\n                         ⛥ ```Torny Mark```\n\n       *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
@@ -35,6 +35,6 @@ else if (Config.WORKTYPE == 'public') {
 
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: ' *╔═════◉ɴᴇᴏᴛʀᴏ◉═════╗*\n           🎭ɴᴇᴏᴛʀᴏ-𝙭🪐\n*❖═මීම් ලැයිස්තුව═❖*\n\n*💠.yasai       ❴your text❵*\n*💠.uddika    ❴your text❵*\n*💠.aah          ❴your text❵*\n*💠.sir            ❴your text❵*\n*💠.my3         ❴your text❵*\n*💠.fuck         ❴your text❵*\n*💠.hii             ❴your text❵*\n*💠.asai          ❴your text❵*\n*💠.hapoi       ❴your text❵*\n*💠.anura       ❴your text❵*\n*💠.gemba       ❴your text❵*\n*💠.wow       ❴your text❵*\n*💠.hapo       ❴your text❵*\n*💠.babah       ❴your text❵*\n*💠.macn       ❴your text❵*\n*💠.nah       ❴your text❵*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Template Credit: එ.මි.ස ¡v* '})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*◄━━━━━━⦁⚬❲❄❳⚬⦁━━━━━━►*\n⚜𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄⚜\n\n*▣Developer ►* ```En cuzier```\n*▣Hosted      ►* ```Heroku cls```\n*▣Branche    ►* ```Hatzuhole main```\n*▣Git hub      ►* ```https://github.com/En-Cuzier```\n*▣Moders     ►* ```Queen Alexa team```\n                         ⛥ ```Mr.chaby```\n                         ⛥ ```Teenuh```\n                         ⛥ ```MashZ```\n                         ⛥ ```Torny Mark```\n\n       *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*'})
     }));
 }
