@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 afnanplk.
+/* Copyright (C) 2021 en cuzier 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 */
@@ -25,5 +25,5 @@ Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList:
 
     await message.sendMessage('```cleaning chat...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🏳 Chat cleared 🏳```');
+    await message.sendMessage('❲📑𝗖𝗵𝗮𝘁 𝗖𝗹𝗲𝗮𝗿𝗲𝗱🚮❳');
 }));
