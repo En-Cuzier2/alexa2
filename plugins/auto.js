@@ -7,8 +7,8 @@ Asena.addCommand({pattern: 'hi', fromMe: false,dontAddCommandList: true}, (async
 
     var r_text = new Array ();    
 r_text[0] = "hey! How.are you";
-r_text[1] = "🧡";
-r_text[2] = "💛";
+r_text[1] = "*මොකද කරන්නෙ*";
+r_text[2] = "*ඔයාට කොහොමද ?*";
 r_text[3] = "💚";
 r_text[4] = "💙";
 r_text[5] = "💜";
