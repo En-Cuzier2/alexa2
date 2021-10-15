@@ -19,7 +19,7 @@ const Lang = Language.getString('whatsappstatus');
 
 if (Config.WORKTYPE == 'private') {
 
-    Ktb.addCommand({pattern: 'stts', fromMe: true, desc: Lang.WS}, (async (message, match) => {
+    Ktb.addCommand({pattern: 'stts', fromMe: true, desc: 'download the whatsapp status video' }, (async (message, match) => {
         
      var reply = await message.client.sendMessage(message.jid,'*꧁•⊹٭D͙O͙W͙N͙L͙O͙A͙D͙I͙N͙G͙ W͙H͙A͙T͙S͙A͙P͙P͙ S͙T͙A͙T͙U͙S͙٭⊹•꧂*', MessageType.text);
  
