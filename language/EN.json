@@ -189,17 +189,17 @@
             "ISONG_DESC": "Uploads the song you wrote for ios users.",
             "SONG_DESC": "Uploads the song you wrote.",
             "SING_DESC": "Sings the song you wrote.",
-            "NEED_TEXT_SONG": "ᴘʟᴇᴀꜱᴇ ᴡʀɪᴛᴇ ᴀ ꜱᴏɴɢ \n ᴇxᴀᴍᴘʟᴇ:.ꜱᴏɴɢ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡɪɴɢꜱ",
-            "NEED_TEXT_SING": "*Tell me which song to sing !*\n*Example:* ```.sing open your wings```",
+            "NEED_TEXT_SONG": "*Please write a song* \n *Example* :- ```.song mals off```",
+            "NEED_TEXT_SING": "*Tell me which song to sing !*\n*Example:* ```.sing mask off```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*⦁━━━━━━❲📻❳━━━━━━⦁*\n*Downloading your song*\n*⦁━━━━━━❲🎶❳━━━━━━⦁*\n",
+            "DOWNLOADING_SONG": "*⦁━━━━━━❲📻❳━━━━━━⦁*\n*Downloading your song*\n*⦁━━━━━━❲🎶❳━━━━━━⦁*",
             "DOWNLOADING_SING": "*Redy to heare*",
-            "UPLOADING_SONG": "\n*◄⦁❲🎧❳⦁►*\n     *Uploading your song*\n*◄━━━━━⦁◉◆◉⦁━━━━━►*\n",
+            "UPLOADING_SONG": "        *◄⦁❲🎧❳⦁►*\n      *Uploading your song*\n*◄━━━━━⦁◉◆◉⦁━━━━━►*",
             "UPLOADING_SING": " ᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=t1r_tmgQago```",
-            "DOWNLOADING_VIDEO": "ᴡᴀɪᴛ ᴀᴍ ꜱᴇᴀʀᴄʜɪɴɢ",
-            "UPLOADING_VIDEO": "ʜᴀʜᴀ ꜰᴏᴜɴᴅ ɪᴛ",
+            "DOWNLOADING_VIDEO": "*Uploading your video*",
+            "UPLOADING_VIDEO": "*Downloading your video*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -207,7 +207,7 @@
             "SEARCHING": "* 🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "Uploading photo ```{}``` number ```{} ```..."
+            "IMG": "*Uploading photo* ```{}``` *number* ```{} ```..."
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
@@ -241,17 +241,17 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*❲❄❳ Successfullu update Queen alexa ❲❄❳*\n*❍alexa's restarting now!*",
+            "AFTER_UPDATE": "*❲❄❳Successfullu update Queen alexa❲❄❳*\n*❍alexa's restarting now!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
             "PL_DESC": "Displays metadata data of group or person.",
-            "SUB": "*👽Group Name:➜* ",
-            "DES": "*🧞‍♀️Group Description:➜* ",
-            "OWN": "*🧚‍♀️Founder:➜* ",
-            "COD": "*🧛‍♂️Unique Group Code:➜* ",
-            "JİD": "*🧙Person JID:➜* ",
-            "ST": "*🪀Person Status:➜* "
+            "SUB": "*👽Group Name:* ",
+            "DES": "*🧞‍♀️Group Description:* ",
+            "OWN": "*🧚‍♀️Founder:* ",
+            "COD": "*🧛‍♂️Unique Group Code:* ",
+            "JİD": "*🧙Person JID:* ",
+            "ST": "*🪀Person Status:* "
         },
         "log": {
             "LOG": "Saves the message you reply to your private number.",
