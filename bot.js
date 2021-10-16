@@ -106,7 +106,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         );
 
         console.log(
-            chalk.blueBright.italic('⬇️ Installing external plugins...')
+            chalk.blueBright.italic('⬇🔀 Installing external plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -245,7 +245,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n  *◉❲QUEEN ALEXA ERROR❳◉*\n' +
-                                    '\n\n*⛔ ' + error + '*\n'
+                                    '\n\n*⛔ ' + error + '*\n\n*▣Report this error ⦁►*```https://t.me/cuzier```\n'
                                     , MessageType.text);
                             }
                         }
