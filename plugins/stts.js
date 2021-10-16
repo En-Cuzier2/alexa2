@@ -21,7 +21,7 @@ if (Config.WORKTYPE == 'private') {
 
     Ktb.addCommand({pattern: 'stts', fromMe: true, desc: 'download the whatsapp status video' }, (async (message, match) => {
         
-     var reply = await message.client.sendMessage(message.jid,'*꧁•⊹٭D͙O͙W͙N͙L͙O͙A͙D͙I͙N͙G͙ W͙H͙A͙T͙S͙A͙P͙P͙ S͙T͙A͙T͙U͙S͙٭⊹•꧂*', MessageType.text);
+     var reply = await message.client.sendMessage(message.jid,'*DDownloding Your whatsapp  status*', MessageType.text);
  
         var r_text = new Array ();
 
@@ -55,7 +55,7 @@ if (Config.WORKTYPE == 'private') {
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
 // EXPORTING
-        reply = await message.client.sendMessage(message.jid,'*꧁•⊹٭𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂٭⊹•꧂*', MessageType.text);
+        reply = await message.client.sendMessage(message.jid,'*Uploading your whatsapp status*', MessageType.text);
         await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, quoted: message.data, caption: '*◄━━━━━━━⦁⦁status by Queen Alexa⦁⦁━━━━━━━━►*'})
 
         
@@ -65,7 +65,7 @@ else if (Config.WORKTYPE == 'public') {
 
     Ktb.addCommand({pattern: 'stts', fromMe: false, desc: Lang.WS}, (async (message, match) => {
         
-      var reply = await message.client.sendMessage(message.jid,'*꧁•⊹٭D͙O͙W͙N͙L͙O͙A͙D͙I͙N͙G͙ W͙H͙A͙T͙S͙A͙P͙P͙ S͙T͙A͙T͙U͙S͙٭⊹•꧂*',MessageType.text);
+      var reply = await message.client.sendMessage(message.jid,'*Downloding your status*',MessageType.text);
  
      
         
@@ -101,7 +101,7 @@ else if (Config.WORKTYPE == 'public') {
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
 // EXPORTING
-        reply = await message.client.sendMessage(message.jid,'*꧁•⊹٭𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂٭⊹•꧂*',MessageType.text);
+        reply = await message.client.sendMessage(message.jid,'*Uploading your status*',MessageType.text);
         await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '*◄━━━━━━━⦁⦁status by Queen Alexa⦁⦁━━━━━━━━►*',})
 
     }));
