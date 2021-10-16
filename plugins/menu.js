@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('scrapers');
 
 if (Config.WORKTYPE == 'private') {
-Asena.addCommand({pattern: 'menu', fromMe: true, desc: Lang.UP}, (async (message, match) => {
+Asena.addCommand({pattern: 'menu', fromMe: true, desc: 'it shows bot command list'}, (async (message, match) => {
 
     var r_text = new Array ();
     
