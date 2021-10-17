@@ -244,8 +244,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n  *◉❲QUEEN ALEXA ERROR❳◉*\n' +
-                                    '\n\n*⛔ ' + error + '*\n\n*▣Report this error ⦁►*```https://t.me/cuzier```\n'
+                                await conn.sendMessage(conn.user.jid, '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n   *◉❲QUEEN ALEXA ERROR❳◉*\n' +
+                                    '\n\n*⛔ ' + error + '*\n\n*📑Report this error ⦁►*```https://t.me/cuzier```\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n'
                                     , MessageType.text);
                             }
                         }
