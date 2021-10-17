@@ -15,7 +15,7 @@ const BLang = Language.getString('scrapers');
 const YTV_DESC = "Youtube Audio Downloader V2."
 const YT_NEED = "🌀 *Enter Youtube URL* \nExample:-\n _.audio https://www.youtube.com/watch?v=nYQZ0uXWbP4_"
 const DWLOAD_AUD = "*🎭 Downloading Your Audio...*"
-const YTV_UP = "*🚀 Uploading Your Audio...*"
+const YTV_UP = "     *↺   ⇆    ◁▊▊▷   ⇆  ↻*\n*0.00  ━━━━◯──────── 4.55"*
 const NO_RESULT = "🌀 *Can't Find Anything...*"
 let tk = Config.WORKTYPE == 'private' ? false: true
 let tn = Config.WORKTYPE == 'public' ? false: true
