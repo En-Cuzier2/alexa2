@@ -7,7 +7,7 @@ let Asena = require('../events');
 let Config = require('../config');
 let {MessageType,Mimetype} = require('@adiwajshing/baileys');
 let Language = require('../language');
-let Lang = Language.getString('_asena');
+let Lang = Language.getString('_alexa');
 let alexa_voice = require('../upload/queen1.mp3');
 
 if (Config.WORKTYPE == 'private') {
