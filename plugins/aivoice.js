@@ -4,9 +4,9 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
 let tn = Config.WORKTYPE == 'public' ? false : true
-const UP = "```private```"
+const UP = "*⦁═Queen 👸 Alexa═⦁*"
 
-Neotro.addCommand({pattern: 'alexa ?(.*)', fromMe: tn, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'list ?(.*)', fromMe: tn, dontAddCommandList: true}, (async (message, match) => {
 await message.client.sendMessage(message.jid,UP,MessageType.text);
 var respoimage = await axios.get(`https://drive.google.com/file/d/1HHuo-y-f9nhT8h4f8ObwSIKLxYmnRqiX/view`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(respoimage.data), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true, quoted: message.data});
