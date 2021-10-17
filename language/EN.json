@@ -194,7 +194,7 @@
             "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "*⦁━━━━━━❲📻❳━━━━━━⦁*\n*Downloading your song*\n*⦁━━━━━━❲🎶❳━━━━━━⦁*",
             "DOWNLOADING_SING": "*Redy to heare*",
-            "UPLOADING_SONG": "        *◄⦁❲🎧❳⦁►*\n      *Uploading your song*\n*◄━━━━━⦁◉◆◉⦁━━━━━►*",
+            "UPLOADING_SONG": "   *↺   ⇆    ◁▊▊▷   ⇆  ↻*\n*0.00  ━━━━◯──────── 4.55*",
             "UPLOADING_SING": " ᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=t1r_tmgQago```",
@@ -212,7 +212,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "\n*Reply to a photo or video!*\n",
-            "DOWNLOADING": "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*QUEEN ALEXA CREATED STICKER*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*"
+            "DOWNLOADING": "```●Alexa created your sticker●```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
