@@ -11,7 +11,7 @@ const LOAD_ING = "*👩‍🦰Searching details*"
 const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('amazone');
-let tn = Config.WORKTYPE == 'public' ? false : true
+let tn = Config.WORKTYPE == 'private' ? false : true
 
 Neotro.addCommand({pattern: 'device ?(.*)', fromMe: tn, desc: 'its show details about mobile' , dontAddCommandList: false}, async (message, match) => {
     
@@ -20,19 +20,19 @@ const { status, result } = data
 if(!status) return await message.sendMessage('not found')
 await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
 let msg = '```'
-msg +=  `NAME          :${result.judul}\n\n`
-msg +=  `DATE          :${result.rilis}\n\n`
-msg +=  `WEIGHT        :${result.ukuran}\n\n`
-msg +=  `VERSION       :${result.type}\n\n`
-msg +=  `ROM           :${result.storage}\n\n`
-msg +=  `DISPLAY       :${result.display}\n\n`
-msg +=  `RAM           :${result.ram}\n\n`
-msg += `BATTERY        :${result.batrai}\n\n`
-msg += `CPU            :${result.chipset}\n\n`
-msg += `INCH           :${result.inchi}\n\n`
-msg += `VIDEO MP       :${result.videoPixel}\n\n`
-msg += `PIC            :${result.thumb}\n\n`
-msg += `BATTERY BRAND  :${result.pixel}\n\n`
+msg +=  `*NAME*          :${result.judul}\n\n`
+msg +=  `*DATE*          :${result.rilis}\n\n`
+msg +=  `*WEIGHT*        :${result.ukuran}\n\n`
+msg +=  `*VERSION*       :${result.type}\n\n`
+msg +=  `*ROM*           :${result.storage}\n\n`
+msg +=  `*DISPLAY*       :${result.display}\n\n`
+msg +=  `*RAM*           :${result.ram}\n\n`
+msg += `*BATTERY*        :${result.batrai}\n\n`
+msg += `*CPU*            :${result.chipset}\n\n`
+msg += `*INCH*           :${result.inchi}\n\n`
+msg += `*VIDEO MP*       :${result.videoPixel}\n\n`
+msg += `*PIC*            :${result.thumb}\n\n`
+msg += `*BATTERY BRAND*  :${result.pixel}\n\n`
 msg += '```'
  return await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 });
