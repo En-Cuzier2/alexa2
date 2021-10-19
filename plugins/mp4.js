@@ -11,7 +11,7 @@ const DWLOAD_VID = "*Downloading Your Video...*"
 const YTV_UP = "*Uploading Your Video...*"
 const NO_RESULT = "*🌀can't Find Anything...*"
 
-    amazone.addCommand({ pattern: 'mp4 ?(.*)', fromMe: true, deleteCommand: false, desc: 'youtube video downloder v2',  deleteCommand: false}, async (message, match) => {
+    amazone.addCommand({ pattern: 'youtube ?(.*)', fromMe: true, deleteCommand: false, desc: 'youtube video downloder v2',  deleteCommand: false}, async (message, match) => {
         const link = match[1]
         if (!link) return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text)
         await message.client.sendMessage(message.jid,DWLOAD_VID,MessageType.text);
