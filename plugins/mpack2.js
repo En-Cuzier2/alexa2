@@ -6,9 +6,9 @@ const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys'
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-const ll ="```YOU MUST ENTER WORDS!``` \n\n alpha"
+const ll ="```YOU MUST ENTER WORDS!```"
 const Ln = "*it can make your own meme* "
-const code = "*⦁═Queen 👸 Alexa═⦁*\n           MPACK🪐\n*❖═List═❖*\n\n*💠.yasai       ❴your text❵*\n*💠.uddika    ❴your text❵*\n*💠.aah          ❴your text❵*\n*💠.sir            ❴your text❵*\n*💠.my3         ❴your text❵*\n*💠.fuck         ❴your text❵*\n*💠.hii             ❴your text❵*\n*💠.asai          ❴your text❵*\n*💠.hapoi       ❴your text\n❵*\n"
+const code = "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n     *MEMES COMMAND*\n\*▣command* ► ```.my3```\n*▣command* ► ```.fuk```\n*▣command* ► ```.hii```\n*▣command* ► ```.sir```\n*▣command* ► ```.yasai```\n*▣command* ► ```.hapoi```\n*▣command* ► ```.uddika```\n*▣command* ► ```.aah\n*▣command* ► ```.asai```\n\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*"
 
 if (Config.WORKTYPE == 'public') {
     
@@ -30,7 +30,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-Asena.addCommand({ pattern: 'fuq ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'fuk ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
