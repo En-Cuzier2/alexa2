@@ -1,4 +1,18 @@
-QUEEN ALEXA 
+<div align="center">
+
+◄━━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►
+
+***⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁***
+
+◄━━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►
+
+
+
+![logo](https://telegra.ph/file/b20bc54c41f6f8d85eeee.jpg)
+
+
+
+<div align="center">
 
 ## Setup
 <div align="center">
@@ -11,3 +25,8 @@ QUEEN ALEXA
      </div>
 <br>
 <br >
+
+<div align="center">
+
+### Github 
+https://github.com/En-Cuzier/alexa2
