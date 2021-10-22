@@ -1,5 +1,5 @@
 {
-    "name": "⦁═Queen 👸 Alexa═⦁K",
+    "name": "⦁═Queen 👸 Alexa═⦁",
     "description": "alexa - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://telegra.ph/file/e03e7e9258b292cf33cf1.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
@@ -9,30 +9,30 @@
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "scan කල qr කේතය යොදන්න. Type here yours Asena Session.",
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "description": "ඔබ මෙය නොදන්නෙ නම් අත්හරින්න. Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
             "required": false
         },
         "LANGUAGE": {
-            "description": "only english language is available",
+            "description": "ඉන්ග්‍රීසී භාශාව සදහා en. (coming soon sinhala language) type en for english language",
             "required": true,
             "value": "en"
         },
          "BGM_FILTER": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false",
+            "description": "වෙනස් නොකරන්නෙ නම් එය අතහරින්න. If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
             "value": "true"
         },   
         "ANTİ_LİNK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "description": "ඔබගෙ සමූහයට link දැමිමෙන් ස්වයංක්‍රීයව සමූහයෙන් ඉවත්කිරීම. Link Blocking System.",
             "required": true,
             "value": "false"
         },
          "STICKER_REPLY": {
-            "description": "if you need Automatic sticker reply type'true'. Otherwise false",
+            "description": "ස්වයංක්‍රීයව ස්ටිකර් යැවීමට. if you need Automatic sticker reply type'true'. Otherwise false",
             "required": false,
             "value": "true"
         },  
@@ -42,47 +42,47 @@
             "value": "false"
         },
         "AUTO_BİO": {
-            "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
+            "description": "auto bio පද්ධතිය on කිරීම සදහා. Set true for auto date, time in biography.",
             "required": true,
             "value": "true"
         },
         "OWNER_NAME": {
-            "description": "reply for .owner ! give your details, Use => default, to change back.",
+            "description": "Bot අයිතිකරුගෙ නම යැවීම සදහා. reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
             "value": "default"
         },    
         "HANDLERS": {
-            "description": "Komutlar için. For commands.",
+            "description": "විධානයන් සදහා. For commands.",
             "required": true,
             "value": "^[.!;]"
         },
-        "Z_PINKY_AI": {
-            "description": "turn on chat back auto reply pinky (use true to on and fale to off)",
+        "Z_ALEXA_AI": {
+            "description": "කෘත්‍රිම බුද්ද්ධිය පනගැන්වීම සදහා. on chat back auto reply pinky (use true to on and fale to off)",
             "required": true,
             "value": "true"
         },
         "Z_BOT_NAME": {
-            "description": "give a name you disire to give your bot (for auto reply to identify)",
+            "description": "Bot ගෙ නම වෙනස් කිරිම සදහා. give a name you disire to give your bot (for auto reply to identify)",
             "required": false,
             "value": "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n   *⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*"
         },
         "Z_DEP_NAME": {
-            "description": "bot deployer name make it short  (for auto reply pinkt to identify)",
+            "description": "Bot අයිතිකරුගෙ නම යැවීම සදහා. bot deployer name make it short  (for auto reply pinkt to identify)",
             "required": false,
             "value": "Cuzier"
         },
         "Z_BOT_REPLY": {
-            "description": "enter the repply message you want when deployer name is typed by users  (for auto reply pinkt to identify)",
+            "description": "ඉහත ඔබ සදහන් කල නාමය ලැබුනු පසු පනිවිඩය. enter the reply message you want when deployer name is typed by users  (for auto reply pinkt to identify)",
             "required": false,
             "value": "i know him he is my creator"
         },
         "ALL_LINK_BAN": {
-            "description": "Link Blocking System.- this one blocks all link",
+            "description": "අනවශ්‍ය ලින්ක් දැමීමෙන් ස්වයංක්‍රීයව ඉවත්කිරීමෙ පද්ධතිය. Link Blocking System.- this one blocks all link",
             "required": true,
             "value": "false"
         },
         "NO_LOG": {
-            "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
+            "description": "අතහරින්න. Set true if you don't want to see error log.",
             "required": true,
             "value": "false"
         },
@@ -97,7 +97,7 @@
             "value": "true"
         },
            "ALL_CAPTION": {
-            "description": "Caption for images and videos generated by pinky bot",
+            "description": "සියලුම කැප්ශන් සදහා. Caption for images and videos generated by Alexa bot",
             "required": false,
             "value": "*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*"
         },
@@ -151,20 +151,20 @@
             "value": "private"
         },
         "HEROKU_APP_NAME": {
-            "description": "Herokuda uygulama adı. Heroku APP Name.",
+            "description": "ඉහතඔබ ලබා දුන් app හි නාමය. Heroku APP Name.",
             "required": true
         },
         "DEBUG": {
-            "description": "Geliştiricilere özeldir.",
+            "description": "අවශ්‍යනොවෙ..",
             "required": true,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "description": "Remove bg හි singup වි ලබාගත් api යතුර. https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
+            "description": "alive message එක සදහා. Customizable Alive Message! Use => default, to change back.",
             "required": false,
             "value": "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*Hey buddy*\n\n```⚜i'm still alive now⚜```\n\n*❍Author*  ► ```En cuzier```\n*❍Hosted*  ► ```Heroku```\n*❍Branch*  ► ```Alexa main```\n*❍Github*  ► ```https://github.com/En-Cuzier/QUEEN-ALEXA```\n\n*💫Thank you for using🧚‍♀️*\n   *queen alexa*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n"
         },
@@ -213,12 +213,12 @@
             "required": false          
         },
         "NO_ONLINE": {
-            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
+            "description": "Bot online /offline බව වෙනස් කිරීමට. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         },
         "COFFEEHOUSE_API_KEY": {
-            "description": "Pass This Step! - Bu Bölümü Geçin!",
+            "description": "Pass This Step! - අතහරින්න එය අපි ඔබට ලබාදෙනව.",
             "required": false,
             "value": "true"
         }
