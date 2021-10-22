@@ -1,4 +1,4 @@
-/* codded by afnanplk
+/* codded by En cuzier 
 */
 
 const { Sequelize } = require('sequelize');
@@ -13,9 +13,9 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 
  OA_AI: process.env.Z_PINKY_AI === undefined ? true : process.env.Z_BOTNAME,  
- OB_NAME: process.env.Z_BOT_NAME === undefined ? 'Pinky' : process.env.Z_BOT_NAME,
- OA_NAME: process.env.Z_DEP_NAME === undefined ? 'plk' : process.env.Z_DEP_NAME,
- OA_REPLY: process.env.Z_DEP_REPLY === undefined ? 'plk is my creator his full name is afnanplk' : process.env.Z_DEP_REPLY,
+ OB_NAME: process.env.Z_BOT_NAME === undefined ? 'Queen Alexa' : process.env.Z_BOT_NAME,
+ OA_NAME: process.env.Z_DEP_NAME === undefined ? 'Cuzier' : process.env.Z_DEP_NAME,
+ OA_REPLY: process.env.Z_DEP_REPLY === undefined ? 'En cuzier is my creator his full name is En cuzier / chamodya deshan' : process.env.Z_DEP_REPLY,
     
 
 };
