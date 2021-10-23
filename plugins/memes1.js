@@ -14,7 +14,7 @@ const Ln = "Make memes your own "
 
 if (Config.WORKTYPE == 'private') {
     
-      Asena.addCommand({pattern: '1mpack', fromMe: true, desc: Ln,}, (async (message, match) => {
+      Asena.addCommand({pattern: '1mpack', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
     await message.client.sendMessage(
   
