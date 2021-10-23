@@ -18,7 +18,7 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'aalive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'cuzi', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
@@ -35,7 +35,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-   Asena.addCommand({pattern: 'aalive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+   Asena.addCommand({pattern: 'cuzi', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
