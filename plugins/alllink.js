@@ -1,4 +1,4 @@
-/* codded by afnanplk
+/* codded by En cuzier 
 
 use this git under copyright
 dont change credit
@@ -106,7 +106,7 @@ var plk8 = ''
 var plk9 = ''
 
  if (Config.LANG == 'ML') {
-         plk1 = '```എല്ലാ കമാൻഡുകളും ലഭിക്കാൻ .list ടൈപ്പ് ചെയ്യുക```'
+         plk1 = '```എല്ലാ കമാൻഡുകളും ലഭിക്കാൻ .alexa ടൈപ്പ് ചെയ്യുക```'
          plk2 = 'എന്റെ പേര് '
          plk3 = 'അതെ എന്നോട് പറയൂ, ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും'
          plk4 = '👻Boo-o-o-oh👻'
@@ -114,18 +114,18 @@ var plk9 = ''
          plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
          plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          plk8 = 'ആരെങ്കിലും എന്നെ സഹായിക്കൂ, ഈ വ്യക്തി മോശമായി സംസാരിക്കുന്നു \n ഞാൻ ഒരു നല്ല പെൺകുട്ടിയാണ് ... \n\n ട്രിൻ..ട്രിൻ ... *ഹലോ പോലീസ് സ്റ്റേഷൻ *'
-         plk9 = ' https://github.com/afnanplk/lastpink '
+         plk9 = ' https://github.com/En-Cuzier/alexa2 '
       }//afnanplk creation
     else {
-        plk1 = 'to get all commands type .list*'
-        plk2 = 'hey am '
-        plk3 = 'ʏᴇꜱ ᴛᴇʟʟ ᴍᴇ, ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ'
-        plk4 = '👻Boo-o-o-oh👻'
+        plk1 = '*to get all commands type .alexa*'
+        plk2 = 'Hey ! im '
+        plk3 = '*Yeh bro tell me how can i help you*'
+        plk4 = '*What do you want*'
         plk5 = 'i know him he is my creator'
-        plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
+        plk6 = 'En-Cuzier , Mr.chaby , Torny mark , Teenuh , MashZ'
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         plk8 = 'somebody help me this person is talking bad things \n i am a good girl...\n\n trin..trin... *hello police station*'
-        plk9 = ' https://github.com/afnanplk/lastpink '
+        plk9 = ' https://github.com/En-Cuzier/alexa2 '
     }  
 
 
