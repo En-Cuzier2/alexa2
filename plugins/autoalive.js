@@ -6,10 +6,10 @@ const axios = require('axios');
 Asena.addCommand({pattern: 'alive', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
     var r_text = new Array ();    
-r_text[0] = "❤";
-r_text[1] = "🧡";
-r_text[2] = "💛";
-r_text[3] = "💚";
+r_text[0] = "*Hey , i'm alive now*";
+r_text[1] = "*type .alexa for get command panale*";
+r_text[2] = ".alexa";
+r_text[3] = ".alive";
 r_text[4] = "💙";
 r_text[5] = "💜";
 r_text[6] = "🤎";
