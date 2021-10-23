@@ -1,20 +1,20 @@
 /* Coded by rashi
-Re-coded by KTB 
+Re-coded by En cuzier 
 */
 
 const Asena = require('../events');
 const { MessageType, Mimetype } = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
-const LOAD_ING = "*Downloding*"
-const UPLOAD_ING = "*✅️ DOWNLOADING COMPLETED \n\n UPLOADING IN PROCESS...*"
+const LOAD_ING = "*Uploading your video*"
+const UPLOAD_ING = "*Downloadin your video*"
 const axios = require('axios')
 const Axios = require('axios')
 
 const conf = require('../config');
 let wk = conf.WORKTYPE == 'public' ? false : true
 
-Asena.addCommand({pattern: 'ytv ?(.*)', fromMe: wk, desc: 'video downloading links from youtube'}, async (message, match) => {
+Asena.addCommand({pattern: 'yt ?(.*)', fromMe: wk, desc: 'video downloading links from youtube'}, async (message, match) => {
 
 var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
 	
