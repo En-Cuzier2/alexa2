@@ -5,9 +5,9 @@
     "AUTHOR": "En cuzier",
     "STRINGS": {
         "_asena": {
-            "COMMAND": "Cmnd",
-            "DESC": "Desc",
-            "EXAMPLE": "Ex",
+            "COMMAND": "Command",
+            "DESC": "Description",
+            "EXAMPLE": "Example",
             "NOT_FOUND": "*I couldnt find a command like this*",
             "PLKADMIN": "*.report you are not admin*​",
             "WARN": "Warn"
@@ -55,7 +55,7 @@
         },
         "afk": {
             "AFK_DESC": "It makes you AFK - Away From Keyboard.",
-            "IM_AFK": "*I'm AFK now!*",
+            "IM_AFK": "*❲I'm AFK now!❳*",
             "IM_AFK_NOMD": "I'm AFK now!",
             "REASON": "Reason",
             "LAST_SEEN": "Last Seen",
@@ -234,14 +234,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update for pinky.",
-            "UPDATE": "*❲QUEEN ALEXA UP-TO-DATE❳*",
-            "NEW_UPDATE": "*❲New update available for QUEEN ALEXA❳*\n\n ```use .alexa for commands``` \n\n *ask support group before updating or your bot might stop working* \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n\n```ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ```\n ",
+            "UPDATE": "*⚙QUEEN ALEXA UP-TO-DATE🔩*",
+            "NEW_UPDATE": "*❲New update available for QUEEN ALEXA❳*\n\n ```use .alexa for commands``` \n\n *ask support group before updating or your bot might stop working* \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n```⚜ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ⚜```\n\n\n ",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "*[ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ ᴜᴘᴅᴀᴛɪɴɢ ]*",
+            "UPDATING": "*🔧ǫᴜᴇᴇɴ ᴀʟᴇxᴀ ᴜᴘᴅᴀᴛɪɴɢ🔨*",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*❲❄❳Successfullu update Queen alexa❲❄❳*\n*❍alexa's restarting now!*",
+            "AFTER_UPDATE": "*❲❄❳Successfully update Queen alexa❲❄❳*\n\n*alexa's restarting now!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
