@@ -5,11 +5,11 @@
     "AUTHOR": "En cuzier",
     "STRINGS": {
         "_asena": {
-            "COMMAND": "Command",
-            "DESC": "Description",
-            "EXAMPLE": "Example",
+            "COMMAND": "Cmnd",
+            "DESC": "Desc",
+            "EXAMPLE": "Ex",
             "NOT_FOUND": "*I couldnt find a command like this*",
-            "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
+            "PLKADMIN": "*.report you are not admin*​",
             "WARN": "Warn"
         },
         "_plugin": {
